@@ -1,0 +1,358 @@
+{
+    "id": "3b5128dd-ba6e-4ca2-bf15-41e439dcb3a6",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "effd488f-2634-4a37-8f12-9a011b5845bf",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "16595e9e-04df-45a0-b07c-10e400f02f2c",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "0922aeed-ecb7-4ee2-b2dd-762d11510896",
+            "Value": {
+                "id": "4bda2d7d-c434-4294-8dba-b81eb0589ab2",
+                "resourcePath": "views\\0922aeed-ecb7-4ee2-b2dd-762d11510896.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "092d0d50-245f-4901-977c-da92dbbd3a4b",
+            "Value": {
+                "id": "533b2041-8538-4b06-b20b-833e20f3ba8b",
+                "resourcePath": "views\\092d0d50-245f-4901-977c-da92dbbd3a4b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1bef9f65-d495-404b-831f-e3ed77cc5b84",
+            "Value": {
+                "id": "7479a59b-bfec-469a-a481-a83e3414d1a2",
+                "resourcePath": "views\\1bef9f65-d495-404b-831f-e3ed77cc5b84.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1d4c76d2-52de-40bc-9065-4cfebfd5ff9d",
+            "Value": {
+                "id": "ae217135-0efc-4262-b5e5-36b9f63fe2a1",
+                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e0f312e-cb00-4b20-8086-588dd95c2e07",
+            "Value": {
+                "id": "1799a04c-1cff-4989-8b1e-2666513a9139",
+                "resourcePath": "sprites\\defaultGround\\defaultGround.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2b4f70ae-19d7-4d22-8d29-b1cdb1cab7d8",
+            "Value": {
+                "id": "4e63e07b-595f-4e0b-962b-3d7d9e2d86d9",
+                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2f64fe7e-3c41-48d8-8076-e86df6ad5f13",
+            "Value": {
+                "id": "804168a8-bc0b-4afb-8509-c052cf77286b",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "30c97040-2c13-446a-8b09-781cb925c220",
+            "Value": {
+                "id": "aebc3f88-4112-44d9-9b14-c60e336c5be8",
+                "resourcePath": "views\\30c97040-2c13-446a-8b09-781cb925c220.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "37528e17-d081-4c42-ad01-5e4b38e6eea5",
+            "Value": {
+                "id": "d3492188-8322-4f98-8fc9-77edb32cc80b",
+                "resourcePath": "objects\\Bullet\\Bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "39e2d8be-f979-4d7e-b558-cda8a5f04d61",
+            "Value": {
+                "id": "a8b4e50a-a32f-45dd-897c-bc4ee2fdfb97",
+                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4263748e-0817-4dc4-888c-5e54ed9348e3",
+            "Value": {
+                "id": "d5018553-a717-4e0d-affd-d0760070e24a",
+                "resourcePath": "views\\4263748e-0817-4dc4-888c-5e54ed9348e3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4b565eb0-9c4b-4dbd-b554-4f70468116fa",
+            "Value": {
+                "id": "7a5d85aa-f49c-4794-869c-c39f37b56cb3",
+                "resourcePath": "views\\4b565eb0-9c4b-4dbd-b554-4f70468116fa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c7d9115-3921-4570-90e3-ee54b2826e03",
+            "Value": {
+                "id": "ae0bb18f-e7b9-4f54-a1fb-024f309074d8",
+                "resourcePath": "views\\4c7d9115-3921-4570-90e3-ee54b2826e03.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e0763f9-8a44-4b4e-b910-f1287667e386",
+            "Value": {
+                "id": "2dbd3e93-467c-40a2-8a4b-aba2b3bf95d6",
+                "resourcePath": "objects\\oWall\\oWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "50281fb6-1c6d-4301-8f24-b8a762200c57",
+            "Value": {
+                "id": "4f252493-3fc1-4b2c-8fc5-603c56a2ffe9",
+                "resourcePath": "views\\50281fb6-1c6d-4301-8f24-b8a762200c57.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "578befab-9f4c-4800-b753-83c434585b57",
+            "Value": {
+                "id": "1c001768-0b92-42f9-8f27-dbff5d16bfb6",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5976e6a4-c3a5-47a7-ba29-f6abfcebc3a0",
+            "Value": {
+                "id": "cbd75537-e334-4215-aa92-9a4392df9ca3",
+                "resourcePath": "views\\5976e6a4-c3a5-47a7-ba29-f6abfcebc3a0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71e07d07-e634-4a47-a94c-fcf441a84efa",
+            "Value": {
+                "id": "0fbac50e-bcf3-4b16-93b9-a89c8aae2a43",
+                "resourcePath": "objects\\Weapon\\Weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "72279725-848d-4bd8-927d-1b01c4bb015c",
+            "Value": {
+                "id": "5bdc3520-c65d-4ed0-b431-215ae47b2326",
+                "resourcePath": "sprites\\redGround\\redGround.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "74b113da-d8d6-467b-bbe7-65133558584a",
+            "Value": {
+                "id": "21611065-3b93-4c9b-a972-61b29aa77996",
+                "resourcePath": "views\\74b113da-d8d6-467b-bbe7-65133558584a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7ba96738-843d-4892-baf6-00e34221544e",
+            "Value": {
+                "id": "d72f1fc5-804c-4598-8066-52e080317f1e",
+                "resourcePath": "views\\7ba96738-843d-4892-baf6-00e34221544e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9622b0dc-df62-4a84-be8a-3106c2222bda",
+            "Value": {
+                "id": "b918ac86-1cd0-42de-a6cb-064eb732145c",
+                "resourcePath": "views\\9622b0dc-df62-4a84-be8a-3106c2222bda.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9c4e9560-fb78-4e62-b964-62831cbb53c2",
+            "Value": {
+                "id": "8b639eae-498f-4f97-bb80-ca719765709c",
+                "resourcePath": "objects\\RedFloor\\RedFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a0910199-cd22-4113-abe0-47978dfa844c",
+            "Value": {
+                "id": "07966eed-1f78-47be-bab3-e2c90fce8e03",
+                "resourcePath": "sprites\\defaultWall\\defaultWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a153e128-bf83-4cc9-9145-3cb56779d2eb",
+            "Value": {
+                "id": "a605f319-3e58-4828-82ce-23accc92502d",
+                "resourcePath": "objects\\DefaultFloor\\DefaultFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a64a2112-eab2-4618-8759-e0b92c8b26e1",
+            "Value": {
+                "id": "666f1c6e-ccfb-4534-8715-de824b1b64b9",
+                "resourcePath": "sprites\\Sniper\\Sniper.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a7c80f0a-c9e9-4bfc-a088-d1dada3445f0",
+            "Value": {
+                "id": "bbf83b11-bc5e-4436-9fa1-76f18686d13c",
+                "resourcePath": "sprites\\greenGround\\greenGround.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ace0df84-c68f-4d9f-8606-cd3c6edecae4",
+            "Value": {
+                "id": "6327ba70-b6f8-4608-aa81-406271d87093",
+                "resourcePath": "views\\ace0df84-c68f-4d9f-8606-cd3c6edecae4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b21e7461-7e85-4f73-9082-7e9cbbc1a5a5",
+            "Value": {
+                "id": "1175c363-040e-45a5-bbf4-424f4b810afe",
+                "resourcePath": "views\\b21e7461-7e85-4f73-9082-7e9cbbc1a5a5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b67ffc24-9b9d-401d-b7a0-0e3350014d86",
+            "Value": {
+                "id": "ac885420-1df5-4a3d-aae1-e87e547a8119",
+                "resourcePath": "views\\b67ffc24-9b9d-401d-b7a0-0e3350014d86.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca8ddd31-f900-42c6-991a-ebf4764da185",
+            "Value": {
+                "id": "3b5e66a6-22a1-47b7-85ef-db5a8225b2c0",
+                "resourcePath": "views\\ca8ddd31-f900-42c6-991a-ebf4764da185.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "058cf7fa-046f-420e-9a94-9411b3e558fc",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf793cf4-0e45-42d3-9680-3588e97f7fa6",
+            "Value": {
+                "id": "eb0badfe-05c3-4d42-b392-17f726d8fb82",
+                "resourcePath": "views\\cf793cf4-0e45-42d3-9680-3588e97f7fa6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dae39eb6-1a81-4175-89b2-d30a4ccfeb4e",
+            "Value": {
+                "id": "6986bec5-8034-4353-bc3a-ad2f2b5bd5ca",
+                "resourcePath": "sprites\\bull1\\bull1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc4c64c7-3b9c-4c76-919b-7ba813ec7acf",
+            "Value": {
+                "id": "93f4e2d0-1f82-41d1-b82e-6df505182005",
+                "resourcePath": "objects\\GreenFloor\\GreenFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dd4de085-e2fe-4d12-bb89-a615ff2c0529",
+            "Value": {
+                "id": "df16c2ec-7580-495a-b01f-ffc8a45bf02b",
+                "resourcePath": "views\\dd4de085-e2fe-4d12-bb89-a615ff2c0529.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dfaf2af4-ae01-42f8-81b7-92e472936f67",
+            "Value": {
+                "id": "bc19cbb4-44bf-4e99-be21-5056c9fe38c4",
+                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e8d5e1ff-9c95-47d7-b38f-6644be827cb0",
+            "Value": {
+                "id": "1e0185e7-b915-4541-94a5-e3f758939c53",
+                "resourcePath": "views\\e8d5e1ff-9c95-47d7-b38f-6644be827cb0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0595cd4-d1c5-4c89-9556-b0f8b3e0843d",
+            "Value": {
+                "id": "f7c898be-3e45-47c5-b21e-cb16cacf01a7",
+                "resourcePath": "objects\\BlueFloor\\BlueFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f08fb122-0248-49b3-88e0-eb2271fea34f",
+            "Value": {
+                "id": "74161d09-61e4-4b72-88de-0fa0291f32a1",
+                "resourcePath": "sprites\\blueGround\\blueGround.yy",
+                "resourceType": "GMSprite"
+            }
+        }
+    ],
+    "script_order": [
+        "dfaf2af4-ae01-42f8-81b7-92e472936f67"
+    ],
+    "tutorial": ""
+}
