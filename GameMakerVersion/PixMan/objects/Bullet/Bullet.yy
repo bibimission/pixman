@@ -98,6 +98,20 @@
             "value": "0",
             "varName": "bulletDirection",
             "varType": 0
+        },
+        {
+            "id": "86bb6a2b-34ad-41a8-a874-26e26d1db55c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "global.COLOR_NONE",
+            "varName": "color",
+            "varType": 2
         }
     ],
     "solid": false,

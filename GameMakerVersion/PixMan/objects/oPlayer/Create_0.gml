@@ -3,4 +3,4 @@
 
 walkSpeed = 4;
 
-var mainWeapon = instance_create_layer(x, y, "Weapons",Weapon);
+mainWeapon = instance_create_layer(x, y, "Weapons",Weapon);

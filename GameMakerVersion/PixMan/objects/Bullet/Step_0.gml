@@ -6,7 +6,6 @@ var xChange = dcos(bulletDirection) * bulletSpeed;
 var yChange =  - dsin(bulletDirection) * bulletSpeed;
 
 
-
 if(!place_meeting(x + xChange, y,oWall)){
 	x += xChange;
 }
