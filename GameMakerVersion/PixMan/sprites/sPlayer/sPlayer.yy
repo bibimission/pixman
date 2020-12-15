@@ -54,6 +54,7 @@
             "visible": true
         }
     ],
+<<<<<<< HEAD
     "origin": 4,
     "originLocked": false,
     "playbackSpeed": 15,
@@ -67,4 +68,37 @@
     "width": 64,
     "xorig": 32,
     "yorig": 32
+=======
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 32,
+    "yorigin": 32,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"54dabecc-6015-404e-8e16-d8a3677b60b6","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sPlayer",
+  "tags": [],
+  "resourceType": "GMSprite",
+>>>>>>> 797343d (porte 1.0)
 }
