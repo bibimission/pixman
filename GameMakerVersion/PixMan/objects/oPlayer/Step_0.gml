@@ -6,8 +6,8 @@ pressLeft = keyboard_check(vk_left);
 pressUp = keyboard_check(vk_up);
 pressDown = keyboard_check(vk_down);
 
-var xChange = (pressRight - pressLeft) * walkSpeed;
-var yChange = (pressDown - pressUp) * walkSpeed;
+var xChange = (pressRight - pressLeft) * walk_speed;
+var yChange = (pressDown - pressUp) * walk_speed;
 
 
 // Collision mur
