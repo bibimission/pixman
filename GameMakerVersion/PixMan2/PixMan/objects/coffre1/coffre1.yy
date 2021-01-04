@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "coffreF",
-    "path": "sprites/coffreF/coffreF.yy",
+    "name": "coffreO",
+    "path": "sprites/coffreO/coffreO.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,19 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"coffre","path":"objects/coffre/coffre.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":3,"value":"False","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"isOpen","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objets",
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "coffre",
+  "name": "coffre1",
   "tags": [],
   "resourceType": "GMObject",
 }

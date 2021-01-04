@@ -19,6 +19,7 @@
     {"id":{"name":"mix_colors","path":"scripts/mix_colors/mix_colors.yy",},"order":1,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"Floor","path":"objects/Floor/Floor.yy",},"order":1,},
+    {"id":{"name":"coffre1","path":"objects/coffre1/coffre1.yy",},"order":11,},
     {"id":{"name":"ryukH","path":"sprites/ryukH/ryukH.yy",},"order":13,},
     {"id":{"name":"ryukD","path":"sprites/ryukD/ryukD.yy",},"order":12,},
     {"id":{"name":"ryukB","path":"sprites/ryukB/ryukB.yy",},"order":10,},
