@@ -27,3 +27,23 @@ if(floorUnder != pointer_null){
 	mainWeapon.color = floorUnder.color;
 }
 
+
+// --------  ANIMATION
+
+//Demarche du personnage
+if(pressRight){
+	sprite_index = ryukD;
+	image_speed = 15;
+}else if(pressLeft){
+	sprite_index = ryukG;
+	image_speed = 15;
+}else if(pressDown){
+	sprite_index = ryukB;
+	image_speed = 15;
+}else if(pressUp){
+	sprite_index = ryukH;
+	image_speed = 15;
+}else{
+	image_index = 0;
+	image_speed = 0;
+}
