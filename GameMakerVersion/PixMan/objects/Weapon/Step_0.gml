@@ -25,11 +25,13 @@ if(mouse_check_button(mb_left) && cooldown == 0){
 		default:
 		object_set_sprite(Bullet,bull);
 	}
-	bullet = instance_create_layer(x+ldx, y+ldy, "Bullets", Bullet);
-	bullet.color = self.color;
 	
-	bullet.bulletDirection = point_direction(x,y,mouse_x,mouse_y);
-	cooldown = cooldownMax;
+	if(self.color != global.COLOR_NONE){
+		bullet = instance_create_layer(x+ldx, y+ldy, "Bullets", Bullet);
+		bullet.color = self.color;
+		bullet.bulletDirection = point_direction(x,y,mouse_x,mouse_y);
+		cooldown = cooldownMax;
+	}
 }
 
 var pd = point_direction(x, y, mouse_x, mouse_y);
