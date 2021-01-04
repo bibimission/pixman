@@ -23,6 +23,7 @@
     {"id":{"name":"Bullet","path":"objects/Bullet/Bullet.yy",},"order":1,},
     {"id":{"name":"InitRoom","path":"rooms/InitRoom/InitRoom.yy",},"order":1,},
     {"id":{"name":"ryukH","path":"sprites/ryukH/ryukH.yy",},"order":3,},
+    {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},"order":2,},
     {"id":{"name":"ryukD","path":"sprites/ryukD/ryukD.yy",},"order":1,},
     {"id":{"name":"ryukB","path":"sprites/ryukB/ryukB.yy",},"order":0,},
     {"id":{"name":"ryukG","path":"sprites/ryukG/ryukG.yy",},"order":2,},
