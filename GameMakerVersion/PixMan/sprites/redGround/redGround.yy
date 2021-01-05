@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"02e64f21-02f5-4fd1-84bc-6070951d13f7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "ground",
+    "path": "folders/Sprites/level/ground.yy",
   },
   "resourceVersion": "1.0",
   "name": "redGround",

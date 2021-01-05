@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "defaultGround",
-    "path": "sprites/defaultGround/defaultGround.yy",
+    "name": "defaultWall",
+    "path": "sprites/defaultWall/defaultWall.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,26 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [
-    {"varType":2,"value":"COLOR_NONE","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
-        "GMTileSet",
-        "GMSprite",
-        "GMSound",
-        "GMPath",
-        "GMScript",
-        "GMShader",
-        "GMFont",
-        "GMTimeLine",
-        "GMObject",
-        "GMRoom",
-      ],"resourceVersion":"1.0","name":"color","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"COLOR_NONE","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"color","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Floor",
-    "path": "folders/Objets/Level/Floor.yy",
+    "name": "Wall",
+    "path": "folders/Objets/Level/Wall.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Floor",
+  "name": "Wall",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "bullRed",
-    "path": "sprites/bullRed/bullRed.yy",
+    "name": "bull",
+    "path": "sprites/bull/bull.yy",
   },
   "solid": false,
   "visible": true,
@@ -54,7 +54,7 @@
         "GMObject",
         "GMRoom",
       ],"resourceVersion":"1.0","name":"bulletDirection","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":2,"value":"global.COLOR_NONE","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
+    {"varType":2,"value":"COLOR_NONE","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",

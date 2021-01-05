@@ -11,11 +11,11 @@ var yChange = (pressDown - pressUp) * walk_speed;
 
 
 // Collision mur
-if(!place_meeting(x + xChange, y,oWall) && !place_meeting(x + xChange, y,Chest)){
+if(!place_meeting(x + xChange, y,Wall) && !place_meeting(x + xChange, y,Chest)){
 	x += xChange;
 	Weapon.x += xChange;
 }
-if(!place_meeting(x, y + yChange,oWall) && !place_meeting(x, y + yChange,Chest)){
+if(!place_meeting(x, y + yChange,Wall) && !place_meeting(x, y + yChange,Chest)){
 	y += yChange;
 	Weapon.y += yChange;
 }
