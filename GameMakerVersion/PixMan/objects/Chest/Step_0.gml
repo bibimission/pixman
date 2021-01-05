@@ -4,5 +4,6 @@
 if(keyboard_check(vk_enter)){
 	if(!isOpen){
 		sprite_index = chestOpen;
+		isOpen = true;
 	}
 }
