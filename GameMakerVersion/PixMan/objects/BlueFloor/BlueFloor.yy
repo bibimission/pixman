@@ -30,7 +30,7 @@
   ],
   "parent": {
     "name": "Floor",
-    "path": "folders/Objets/Floor.yy",
+    "path": "folders/Objets/Level/Floor.yy",
   },
   "resourceVersion": "1.0",
   "name": "BlueFloor",

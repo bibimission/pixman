@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c86024cc-ad92-44b1-b8de-3642355a4670","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "ground",
+    "path": "folders/Sprites/level/ground.yy",
   },
   "resourceVersion": "1.0",
   "name": "blueGround",

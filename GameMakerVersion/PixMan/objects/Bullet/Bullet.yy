@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "bullRed",
-    "path": "sprites/bullRed/bullRed.yy",
+    "name": "bull",
+    "path": "sprites/bull/bull.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,10 @@
     {"x":0.0,"y":10.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Bullet","path":"objects/Bullet/Bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Bullet","path":"objects/Bullet/Bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
+    {"varType":0,"value":"5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",
@@ -54,7 +53,7 @@
         "GMObject",
         "GMRoom",
       ],"resourceVersion":"1.0","name":"bulletDirection","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":2,"value":"global.COLOR_NONE","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
+    {"varType":2,"value":"COLOR_NONE","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",

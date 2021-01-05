@@ -1,8 +1,6 @@
 ///mix_colors(color1,color2);
-function mix_colors(argument0, argument1) {
-	var color1 = argument0;
-	var color2 = argument1;
-
+function mix_colors(color1, color2) {
+	
 	switch(color1){
 		case global.COLOR_BLUE:
 		if(color2 == global.COLOR_RED){
@@ -28,10 +26,5 @@ function mix_colors(argument0, argument1) {
 		}else{
 			return global.COLOR_GREEN;
 		}
-		default:
-		return global.COLOR_NONE;
 	}
-
-
-
 }
