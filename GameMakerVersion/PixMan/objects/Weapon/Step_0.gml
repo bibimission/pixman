@@ -17,7 +17,12 @@ if(mouse_check_button(mb_left) && cooldown == 0){
 		
 		blend_color(bullet);
 		
-		bullet.bulletDirection = point_direction(x,y,mouse_x,mouse_y);
+		bulletDirection = point_direction(x,y,mouse_x,mouse_y);
+		
+		bullet.hspeed = dcos(bulletDirection) * bullet.bulletSpeed;
+		bullet.vspeed =  - dsin(bulletDirection) * bullet.bulletSpeed;
+		bullet.nb_bounces = 2;
+		
 		cooldown = cooldownMax;
 	}
 }

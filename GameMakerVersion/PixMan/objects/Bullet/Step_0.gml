@@ -2,30 +2,32 @@
 // Vous pouvez écrire votre code dans cet éditeur
 
 
-var xChange = dcos(bulletDirection) * bulletSpeed;
-var yChange =  - dsin(bulletDirection) * bulletSpeed;
-
-if(!place_meeting(x + xChange, y,Wall)){
-	x += xChange;
-}
-else{
+if(place_meeting(x + hspeed, y,Wall)){
 	
-	wall = instance_place(x + xChange, y,Wall);
-	if (wall != noone){
-		color = mix_colors(color,wall.color);
+	if(nb_bounces > 0){
+		wall = instance_place(x + hspeed, y,Wall);
+		if (wall != noone){
+			color = mix_colors(color,wall.color);
+		}
+		hspeed = - hspeed;
+		nb_bounces--;
+	}else{
+		instance_destroy();
 	}
-	//instance_destroy();
 }
 
-if(!place_meeting(x, y + yChange,Wall)){
-	y += yChange;
-}
-else{
-	wall = instance_place(x, y + yChange,Wall);
-	if (wall != noone){
-		color = mix_colors(color,wall.color);
+if(place_meeting(x, y + vspeed,Wall)){
+	
+	if(nb_bounces > 0){
+		wall = instance_place(x, y + vspeed,Wall);
+		if (wall != noone){
+			color = mix_colors(color,wall.color);
+		}
+		vspeed = - vspeed;
+		nb_bounces--;
+	}else{
+		instance_destroy();
 	}
-	//instance_destroy();
 }
 
 blend_color(self);
