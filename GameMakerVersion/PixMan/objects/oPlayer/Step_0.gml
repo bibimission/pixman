@@ -22,10 +22,14 @@ if(!place_meeting(x, y + yChange,Wall) && !place_meeting(x, y + yChange,Chest)){
 
 // Sol
 
-var floorUnder = instance_position(x,y,Floor);
-if(floorUnder != pointer_null){
-	mainWeapon.color = floorUnder.color;
+var floorUnder = ds_list_create();
+var count = instance_position_list(x, y, Floor, floorUnder, true);
+show_debug_message(floorUnder);
+if(count>0){
+	mainWeapon.color = floorUnder[| 0].color;
 }
+
+ds_list_destroy(floorUnder);
 
 // Items au sol
 var itemUnder = instance_position(x,y,Item);

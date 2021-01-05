@@ -21,7 +21,7 @@ if(mouse_check_button(mb_left) && cooldown == 0){
 		
 		bullet.hspeed = dcos(bulletDirection) * bullet.bulletSpeed;
 		bullet.vspeed =  - dsin(bulletDirection) * bullet.bulletSpeed;
-		bullet.nb_bounces = 2;
+		bullet.nb_bounces = 1;
 		
 		cooldown = cooldownMax;
 	}
