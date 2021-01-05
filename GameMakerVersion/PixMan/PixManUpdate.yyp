@@ -1,8 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},"order":25,},
     {"id":{"name":"GreenWall","path":"objects/GreenWall/GreenWall.yy",},"order":2,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":9,},
     {"id":{"name":"defaultWall","path":"sprites/defaultWall/defaultWall.yy",},"order":0,},
+    {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"order":3,},
     {"id":{"name":"BlueWall","path":"objects/BlueWall/BlueWall.yy",},"order":1,},
     {"id":{"name":"sprite2","path":"sprites/sprite2/sprite2.yy",},"order":1,},
     {"id":{"name":"chestOpen","path":"sprites/chestOpen/chestOpen.yy",},"order":1,},
@@ -30,6 +32,7 @@
     {"id":{"name":"BlueFloor","path":"objects/BlueFloor/BlueFloor.yy",},"order":7,},
     {"id":{"name":"RedWall","path":"objects/RedWall/RedWall.yy",},"order":3,},
     {"id":{"name":"Door","path":"objects/Door/Door.yy",},"order":4,},
+    {"id":{"name":"DeadPixel","path":"objects/DeadPixel/DeadPixel.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"Weapon","path":"objects/Weapon/Weapon.yy",},"order":1,},
     {"id":{"name":"redWall","path":"sprites/redWall/redWall.yy",},"order":3,},
@@ -88,6 +91,7 @@
     {"folderPath":"folders/Sprites/level/ground.yy","order":8,"resourceVersion":"1.0","name":"ground","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/level/wall.yy","order":9,"resourceVersion":"1.0","name":"wall","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objets/Level.yy","order":13,"resourceVersion":"1.0","name":"Level","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objets/Entity/enemies.yy","order":4,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

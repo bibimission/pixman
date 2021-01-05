@@ -10,6 +10,10 @@ global.COLOR_MAGENTA = "COLOR_MAGENTA";
 
 global.COLOR_NONE = "COLOR_NONE";
 
+//-------------- Teams
+global.TEAM_ALLY = "TEAM_ALLY";
+global.TEAM_ENEMY = "TEAM_ENEMY";
+
 
 //---------------- Caracteristics
 

@@ -1,6 +1,8 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
+team = global.TEAM_ALLY;
+
 walk_speed = 4;
 
 inventory = ds_list_create();
