@@ -25,3 +25,5 @@ if(mouse_check_button(mb_left) && cooldown == 0){
 var pd = point_direction(x, y, mouse_x, mouse_y);
 var dd = angle_difference(image_angle, pd);
 image_angle -= min(abs(dd), rotation_speed) * sign(dd);
+
+blend_color(self);
