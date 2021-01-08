@@ -18,6 +18,7 @@ if(mouse_check_button(mb_left) && cooldown == 0){
 		blend_color(bullet);
 		
 		bulletDirection = point_direction(x,y,mouse_x,mouse_y);
+		bullet.bulletSpeed = self.bulletSpeed;
 		
 		bullet.hspeed = dcos(bulletDirection) * bullet.bulletSpeed;
 		bullet.vspeed =  - dsin(bulletDirection) * bullet.bulletSpeed;

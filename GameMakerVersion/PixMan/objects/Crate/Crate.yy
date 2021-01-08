@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "chestClosed",
-    "path": "sprites/chestClosed/chestClosed.yy",
+    "name": "Sprite24",
+    "path": "sprites/Sprite24/Sprite24.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,19 +23,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Chest","path":"objects/Chest/Chest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  "eventList": [],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"movable","path":"objects/Obstacle/Obstacle.yy",},"objectId":{"name":"Obstacle","path":"objects/Obstacle/Obstacle.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"weight","path":"objects/Obstacle/Obstacle.yy",},"objectId":{"name":"Obstacle","path":"objects/Obstacle/Obstacle.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
-  "properties": [
-    {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"isOpen","tags":[],"resourceType":"GMObjectProperty",},
-  ],
-  "overriddenProperties": [],
   "parent": {
     "name": "Level",
     "path": "folders/Objets/Level.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Chest",
+  "name": "Crate",
   "tags": [],
   "resourceType": "GMObject",
 }

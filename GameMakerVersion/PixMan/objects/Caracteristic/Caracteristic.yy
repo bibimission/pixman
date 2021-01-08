@@ -24,8 +24,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "Abstract",
+    "path": "folders/Objets/Abstract.yy",
   },
   "resourceVersion": "1.0",
   "name": "Caracteristic",

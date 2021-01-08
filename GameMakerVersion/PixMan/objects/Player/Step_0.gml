@@ -1,5 +1,6 @@
 /// @description A chaque instant
 // Vous pouvez écrire votre code dans cet éditeur
+event_inherited();
 
 pressRight = keyboard_check(vk_right);
 pressLeft = keyboard_check(vk_left);
@@ -10,14 +11,40 @@ var xChange = (pressRight - pressLeft) * walk_speed;
 var yChange = (pressDown - pressUp) * walk_speed;
 
 
-// Collision mur
-if(!place_meeting(x + xChange, y,Wall) && !place_meeting(x + xChange, y,Chest)){
+// Collisions
+if(!place_meeting(x + xChange, y,Obstacle)){
 	x += xChange;
 	Weapon.x += xChange;
+}else{
+	var obst = instance_place(x + xChange, y, Obstacle);
+	if(obst.movable){
+		xChange = xChange/obst.weight;
+		var _list = ds_list_create();
+		var encounters = collision_rectangle_list(obst.x + xChange, obst.y ,obst.x + obst.sprite_width + xChange, obst.y + obst.sprite_height,Obstacle,false,false,_list,false)
+		if(ds_list_size(encounters) == 1 ){
+			x += xChange;
+			Weapon.x += xChange;
+			obst.x += xChange;
+		}
+	}
 }
-if(!place_meeting(x, y + yChange,Wall) && !place_meeting(x, y + yChange,Chest)){
+
+if(!place_meeting(x, y + yChange,Obstacle)){
 	y += yChange;
 	Weapon.y += yChange;
+}else{
+	var obst = instance_place(x, y + yChange, Obstacle);
+	if(obst.movable){
+		yChange = yChange/obst.weight;
+		var _list = ds_list_create();
+		var encounters = collision_rectangle_list(obst.x , obst.y + yChange,obst.x + obst.sprite_width, obst.y + yChange + obst.sprite_height,Obstacle,false,false,_list,false);
+		show_debug_message(ds_list_size(encounters));
+		if(ds_list_size(encounters) == 1){
+			y += yChange;
+			Weapon.y += yChange;
+			obst.y += yChange;
+		}
+	}
 }
 
 // Sol
