@@ -2,5 +2,9 @@
 // Vous pouvez écrire votre code dans cet éditeur
 
 if(keyboard_check(vk_enter) && collision_circle( x, y, 100, Player, false, false )){
+	closed = false;
+}
+
+if(!closed){
 	instance_destroy(self);
 }
