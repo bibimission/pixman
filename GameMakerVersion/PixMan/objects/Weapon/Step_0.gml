@@ -8,8 +8,8 @@ if(cooldown > 0){
 
 if(mouse_check_button(mb_left) && cooldown == 0){
 	
-	var ldx = lengthdir_x(0, mouse_x);
-	var ldy = lengthdir_y(0, mouse_y);
+	var ldx = lengthdir_x(50, image_angle);
+	var ldy = lengthdir_y(50, image_angle);
 	
 	if(self.color != global.COLOR_NONE){
 		bullet = instance_create_layer(x+ldx, y+ldy, "Bullets", Bullet);
