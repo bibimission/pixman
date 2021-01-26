@@ -19,4 +19,4 @@ global.TEAM_ENEMY = "TEAM_ENEMY";
 
 global.CARAC_WALK_SPEED = "WALK_SPEED";
 
-room_goto_next();
+room_goto(Menu);
