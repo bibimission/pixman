@@ -19,6 +19,7 @@ if(mouse_check_button(mb_left) && cooldown == 0){
 		
 		bulletDirection = point_direction(x,y,mouse_x,mouse_y);
 		bullet.bulletSpeed = self.bulletSpeed;
+		bullet.team = self.team;
 		
 		bullet.hspeed = dcos(bulletDirection) * bullet.bulletSpeed;
 		bullet.vspeed =  - dsin(bulletDirection) * bullet.bulletSpeed;
