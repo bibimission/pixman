@@ -17,6 +17,7 @@
     {"id":{"name":"defaultGround","path":"sprites/defaultGround/defaultGround.yy",},"order":1,},
     {"id":{"name":"Sniper","path":"sprites/Sniper/Sniper.yy",},"order":6,},
     {"id":{"name":"bullRed","path":"sprites/bullRed/bullRed.yy",},"order":1,},
+    {"id":{"name":"AvenuePixel","path":"fonts/AvenuePixel/AvenuePixel.yy",},"order":0,},
     {"id":{"name":"doorClosed","path":"sprites/doorClosed/doorClosed.yy",},"order":2,},
     {"id":{"name":"bullBLue","path":"sprites/bullBLue/bullBLue.yy",},"order":3,},
     {"id":{"name":"blend_color","path":"scripts/blend_color/blend_color.yy",},"order":2,},
