@@ -28,6 +28,17 @@ if(!place_meeting(x + xChange, y,Obstacle)){
 		}
 	}
 }
+// Compteur de pièces
+var itemCoins = instance_place(x,y,Coins);
+if(itemCoins != pointer_null && itemCoins >= 0){
+	instance_destroy(itemCoins);
+	Money = Money + 1;
+	show_debug_message(Money)
+}
+
+
+
+
 
 if(!place_meeting(x, y + yChange,Obstacle)){
 	y += yChange;
