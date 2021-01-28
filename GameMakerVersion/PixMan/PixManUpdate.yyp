@@ -42,6 +42,7 @@
     {"id":{"name":"DeadPixel","path":"objects/DeadPixel/DeadPixel.yy",},"order":0,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":1,},
     {"id":{"name":"Weapon","path":"objects/Weapon/Weapon.yy",},"order":1,},
+    {"id":{"name":"filledHeart","path":"sprites/filledHeart/filledHeart.yy",},"order":0,},
     {"id":{"name":"redWall","path":"sprites/redWall/redWall.yy",},"order":3,},
     {"id":{"name":"Bullet","path":"objects/Bullet/Bullet.yy",},"order":1,},
     {"id":{"name":"InitRoom","path":"rooms/InitRoom/InitRoom.yy",},"order":1,},
@@ -54,6 +55,7 @@
     {"id":{"name":"Caracteristic","path":"objects/Caracteristic/Caracteristic.yy",},"order":2,},
     {"id":{"name":"ryukD","path":"sprites/ryukD/ryukD.yy",},"order":1,},
     {"id":{"name":"ryukB","path":"sprites/ryukB/ryukB.yy",},"order":0,},
+    {"id":{"name":"emptyHeart","path":"sprites/emptyHeart/emptyHeart.yy",},"order":1,},
     {"id":{"name":"ryukG","path":"sprites/ryukG/ryukG.yy",},"order":2,},
     {"id":{"name":"Niveau","path":"rooms/Niveau/Niveau.yy",},"order":3,},
   ],
@@ -105,6 +107,7 @@
     {"folderPath":"folders/Objets/Abstract.yy","order":14,"resourceVersion":"1.0","name":"Abstract","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objets/Logic.yy","order":15,"resourceVersion":"1.0","name":"Logic","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objets/Interface.yy","order":16,"resourceVersion":"1.0","name":"Interface","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/ui.yy","order":12,"resourceVersion":"1.0","name":"ui","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
