@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"color","path":"objects/Wall/Wall.yy",},"objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"value":"COLOR_BLUE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"value":"COLOR_BLUE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Wall",

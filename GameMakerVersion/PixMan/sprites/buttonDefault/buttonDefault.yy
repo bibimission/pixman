@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1502782-5664-4a49-ab3d-27caf98eaeba","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "PixManUpdate",
-    "path": "PixManUpdate.yyp",
+    "name": "level",
+    "path": "folders/Sprites/level.yy",
   },
   "resourceVersion": "1.0",
   "name": "buttonDefault",

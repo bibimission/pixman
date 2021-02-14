@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8fcb1e93-1e3c-42a8-935d-8d7b149cd9aa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "PixManUpdate",
-    "path": "PixManUpdate.yyp",
+    "name": "entities",
+    "path": "folders/Sprites/entities.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite23",

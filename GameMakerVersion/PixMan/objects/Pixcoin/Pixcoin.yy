@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "greenWall",
-    "path": "sprites/greenWall/greenWall.yy",
+    "name": "pixcoin",
+    "path": "sprites/pixcoin/pixcoin.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Wall",
-    "path": "objects/Wall/Wall.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,15 +22,13 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"value":"COLOR_GREEN","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Wall",
-    "path": "folders/Objets/Level/Wall.yy",
+    "name": "Item",
+    "path": "folders/Objets/Item.yy",
   },
   "resourceVersion": "1.0",
-  "name": "GreenWall",
+  "name": "Pixcoin",
   "tags": [],
   "resourceType": "GMObject",
 }

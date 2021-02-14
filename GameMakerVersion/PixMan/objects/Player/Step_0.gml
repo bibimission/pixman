@@ -76,6 +76,13 @@ if(itemUnder != pointer_null && itemUnder >= 0){
 	itemUnder.x = -9000;
 }
 
+//Pognon
+var coinUnder = instance_position(x,y,Pixcoin);
+if(coinUnder != pointer_null && coinUnder >= 0){
+	money ++;
+	instance_destroy(coinUnder);
+}
+
 // Verification des stats d'items
 walk_speed = base_walk_speed;
 for(var index = 0; index < ds_list_size(inventory); index++) {
