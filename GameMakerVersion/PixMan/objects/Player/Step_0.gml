@@ -14,7 +14,7 @@ var yChange = (pressDown - pressUp) * walk_speed;
 // Collisions
 if(!place_meeting(x + xChange, y,Obstacle)){
 	x += xChange;
-	Weapon.x += xChange;
+	self.mainWeapon.x += xChange;
 }else{
 	var obst = instance_place(x + xChange, y, Obstacle);
 	if(obst.movable){
@@ -23,7 +23,7 @@ if(!place_meeting(x + xChange, y,Obstacle)){
 		var encounters = collision_rectangle_list(obst.x + xChange, obst.y ,obst.x + obst.sprite_width + xChange, obst.y + obst.sprite_height,Obstacle,false,false,_list,false)
 		if(ds_list_size(encounters) == 1 ){
 			x += xChange;
-			Weapon.x += xChange;
+			self.mainWeapon.x += xChange;
 			obst.x += xChange;
 		}
 	}
@@ -31,7 +31,7 @@ if(!place_meeting(x + xChange, y,Obstacle)){
 
 if(!place_meeting(x, y + yChange,Obstacle)){
 	y += yChange;
-	Weapon.y += yChange;
+	self.mainWeapon.y += yChange;
 }else{
 	var obst = instance_place(x, y + yChange, Obstacle);
 	if(obst.movable){
@@ -41,9 +41,21 @@ if(!place_meeting(x, y + yChange,Obstacle)){
 		show_debug_message(ds_list_size(encounters));
 		if(ds_list_size(encounters) == 1){
 			y += yChange;
-			Weapon.y += yChange;
+			self.mainWeapon.y += yChange;
 			obst.y += yChange;
 		}
+	}
+}
+
+//Arme
+var rotation_speed = 10;
+var pd = point_direction(mainWeapon.x, mainWeapon.y, mouse_x, mouse_y);
+var dd = angle_difference(mainWeapon.image_angle, pd);
+mainWeapon.image_angle -= min(abs(dd), rotation_speed) * sign(dd);
+
+if(mouse_check_button(mb_left) && mainWeapon.cooldown == 0){
+	if(mainWeapon.color != global.COLOR_NONE){
+		weapon_shoot(self.mainWeapon,mouse_x,mouse_y);
 	}
 }
 

@@ -10,5 +10,5 @@ inventory = ds_list_create();
 life_points_max = 5;
 life_points = life_points_max;
 
-mainWeapon = instance_create_layer(x, y, "Weapons",Weapon);
-mainWeapon.team = self.team;
+self.mainWeapon = instance_create_layer(x, y, "Weapons",Weapon);
+self.mainWeapon.team = self.team;
