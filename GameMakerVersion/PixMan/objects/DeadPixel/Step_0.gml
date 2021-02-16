@@ -11,6 +11,7 @@ if(count>0){
 			life_points = life_points - 1;		
 			if(life_points == 0){
 				instance_destroy(self);
+				global.PLAYER_SCORE+=1;
 			}
 		}
 		instance_destroy(bulletsTaken[| index]);

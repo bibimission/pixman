@@ -22,3 +22,4 @@ draw_sprite(pixcoin,-1, 40,30);
 draw_set_color(c_white);
 draw_text(80,25,"x");
 draw_text(100,29,money);
+draw_text(250,25,"Ennemie : " + string(global.PLAYER_SCORE));

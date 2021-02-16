@@ -19,4 +19,6 @@ global.TEAM_ENEMY = "TEAM_ENEMY";
 
 global.CARAC_WALK_SPEED = "WALK_SPEED";
 
+global.PLAYER_SCORE = 0;
+
 room_goto(Menu);
