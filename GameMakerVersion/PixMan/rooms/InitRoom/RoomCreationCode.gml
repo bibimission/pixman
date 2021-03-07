@@ -15,6 +15,14 @@ global.TEAM_ALLY = "TEAM_ALLY";
 global.TEAM_ENEMY = "TEAM_ENEMY";
 
 
+//------------ Item types
+global.ITEM_TYPE_NONE = "ITEM_TYPE_NONE";
+global.ITEM_TYPE_WEAPON = "ITEM_TYPE_WEAPON";
+
+global.ITEM_TYPE_SHOE = "ITEM_TYPE_SHOE";
+global.ITEM_TYPE_CHEST = "ITEM_TYPE_CHEST";
+global.ITEM_TYPE_HAT = "ITEM_TYPE_HAT";
+
 //---------------- Caracteristics
 
 global.CARAC_WALK_SPEED = "WALK_SPEED";

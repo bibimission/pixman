@@ -25,3 +25,9 @@ with(Wall){
 	}
 	draw_primitive_end();
 }
+
+//Arme
+var rotation_speed = 10;
+var pd = point_direction(mainWeapon.x, mainWeapon.y, mouse_x, mouse_y);
+var dd = angle_difference(mainWeapon.image_angle, pd);
+mainWeapon.image_angle -= min(abs(dd), rotation_speed) * sign(dd);

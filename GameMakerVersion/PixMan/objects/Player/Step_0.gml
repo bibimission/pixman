@@ -84,8 +84,12 @@ ds_list_destroy(floorUnder);
 // Items au sol
 var itemUnder = instance_position(x,y,Item);
 if(itemUnder != pointer_null && itemUnder >= 0){
-	ds_list_add(inventory,itemUnder);
-	itemUnder.x = -9000;
+	if(inventory[? itemUnder.item_type] != pointer_null){
+		// Drop item
+	}else{
+		ds_map_replace(inventory,itemUnder.item_type, itemUnder);
+		itemUnder.x = -9000;
+	}
 }
 
 //Pognon
@@ -97,15 +101,18 @@ if(coinUnder != pointer_null && coinUnder >= 0){
 
 // Verification des stats d'items
 walk_speed = base_walk_speed;
-for(var index = 0; index < ds_list_size(inventory); index++) {
-    var item = inventory[| index];
-    for(var caracIndex = 0; caracIndex < ds_list_size(item.caracteristics); caracIndex++) {
+
+for (var k = ds_map_find_first(inventory); !is_undefined(k); k = ds_map_find_next(inventory, k)) {
+  var item = inventory[? k];
+  if(item != pointer_null){
+	for(var caracIndex = 0; caracIndex < ds_list_size(item.caracteristics); caracIndex++) {
 		var carac = item.caracteristics[| caracIndex];
 		switch(carac.key){
 			case global.CARAC_WALK_SPEED:
 			walk_speed += carac.value;
 		}
 	}
+  }
 }
 
 

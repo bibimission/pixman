@@ -24,16 +24,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Boots","path":"objects/Boots/Boots.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"SpeedBoots","path":"objects/SpeedBoots/SpeedBoots.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"item_type","path":"objects/Item/Item.yy",},"objectId":{"name":"Item","path":"objects/Item/Item.yy",},"value":"ITEM_TYPE_SHOE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Clothes",
     "path": "folders/Objets/Item/Clothes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Boots",
+  "name": "SpeedBoots",
   "tags": [],
   "resourceType": "GMObject",
 }

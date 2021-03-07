@@ -1,6 +1,6 @@
 event_inherited();
 
-name = "Boots";
+name = "SpeedBoots";
 
 var speedCarac = instance_create_layer(0,0,"Abstracts",Caracteristic);
 speedCarac.key = global.CARAC_WALK_SPEED;
