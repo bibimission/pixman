@@ -109,6 +109,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Crate","path":"objects/Crate/Crate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2016.0,"y":1312.0,"resourceVersion":"1.0","name":"inst_6BFF9D40","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Chest","path":"objects/Chest/Chest.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2400.0,"y":288.0,"resourceVersion":"1.0","name":"inst_79364B44","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"SpeedBoots","path":"objects/SpeedBoots/SpeedBoots.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":1120.0,"resourceVersion":"1.0","name":"inst_6B1B7601","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"SpeedBoots","path":"objects/SpeedBoots/SpeedBoots.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":512.0,"resourceVersion":"1.0","name":"inst_91241E4","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"MegaSpeedBoots","path":"objects/MegaSpeedBoots/MegaSpeedBoots.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":512.0,"resourceVersion":"1.0","name":"inst_5F4D87FB","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"OnTheGround","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"RedFloor","path":"objects/RedFloor/RedFloor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":256.0,"resourceVersion":"1.0","name":"inst_9D6B562","tags":[],"resourceType":"GMRInstance",},
@@ -204,6 +206,8 @@
     {"name":"inst_2720DCDF","path":"rooms/Niveau/Niveau.yy",},
     {"name":"inst_220461FA","path":"rooms/Niveau/Niveau.yy",},
     {"name":"inst_64BD7898","path":"rooms/Niveau/Niveau.yy",},
+    {"name":"inst_91241E4","path":"rooms/Niveau/Niveau.yy",},
+    {"name":"inst_5F4D87FB","path":"rooms/Niveau/Niveau.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

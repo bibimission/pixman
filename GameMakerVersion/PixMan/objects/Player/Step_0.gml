@@ -85,11 +85,10 @@ ds_list_destroy(floorUnder);
 var itemUnder = instance_position(x,y,Item);
 if(itemUnder != pointer_null && itemUnder >= 0){
 	if(inventory[? itemUnder.item_type] != pointer_null){
-		// Drop item
-	}else{
-		ds_map_replace(inventory,itemUnder.item_type, itemUnder);
-		itemUnder.x = -9000;
+		inventory[? itemUnder.item_type].x = itemUnder.x +80;
 	}
+	ds_map_replace(inventory,itemUnder.item_type, itemUnder);
+	itemUnder.x = -9000;
 }
 
 //Pognon

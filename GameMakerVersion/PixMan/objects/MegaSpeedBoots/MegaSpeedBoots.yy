@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite16",
-    "path": "sprites/Sprite16/Sprite16.yy",
+    "name": "Sprite33",
+    "path": "sprites/Sprite33/Sprite33.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,19 +24,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"SpeedBoots","path":"objects/SpeedBoots/SpeedBoots.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"MegaSpeedBoots","path":"objects/MegaSpeedBoots/MegaSpeedBoots.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
+    {"propertyId":{"name":"name","path":"objects/Item/Item.yy",},"objectId":{"name":"Item","path":"objects/Item/Item.yy",},"value":"MegaSpeedBoots","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"item_type","path":"objects/Item/Item.yy",},"objectId":{"name":"Item","path":"objects/Item/Item.yy",},"value":"ITEM_TYPE_SHOE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"name","path":"objects/Item/Item.yy",},"objectId":{"name":"Item","path":"objects/Item/Item.yy",},"value":"SpeedBoots","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Clothes",
     "path": "folders/Objets/Item/Clothes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SpeedBoots",
+  "name": "MegaSpeedBoots",
   "tags": [],
   "resourceType": "GMObject",
 }

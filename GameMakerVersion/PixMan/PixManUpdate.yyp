@@ -1,11 +1,13 @@
 {
   "resources": [
     {"id":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},"order":0,},
+    {"id":{"name":"MegaSpeedBoots","path":"objects/MegaSpeedBoots/MegaSpeedBoots.yy",},"order":1,},
     {"id":{"name":"snd_menu_switch","path":"sounds/snd_menu_switch/snd_menu_switch.yy",},"order":0,},
     {"id":{"name":"GreenWall","path":"objects/GreenWall/GreenWall.yy",},"order":2,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":0,},
     {"id":{"name":"defaultWall","path":"sprites/defaultWall/defaultWall.yy",},"order":0,},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"order":1,},
+    {"id":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},"order":24,},
     {"id":{"name":"BlueWall","path":"objects/BlueWall/BlueWall.yy",},"order":1,},
     {"id":{"name":"sprite2","path":"sprites/sprite2/sprite2.yy",},"order":1,},
     {"id":{"name":"lifeBarColor","path":"sprites/lifeBarColor/lifeBarColor.yy",},"order":3,},
