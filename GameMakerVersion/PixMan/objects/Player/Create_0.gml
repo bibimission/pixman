@@ -12,3 +12,4 @@ life_points = life_points_max;
 
 self.mainWeapon = instance_create_layer(x, y, "Weapons",Weapon);
 self.mainWeapon.team = self.team;
+
