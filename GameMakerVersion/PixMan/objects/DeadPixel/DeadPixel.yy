@@ -28,8 +28,8 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"life_points_max","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"life_points","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"life_points_max","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"life_points","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "enemies",
