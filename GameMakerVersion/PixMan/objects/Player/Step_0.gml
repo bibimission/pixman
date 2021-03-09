@@ -2,10 +2,10 @@
 // Vous pouvez écrire votre code dans cet éditeur
 event_inherited();
 
-pressRight = keyboard_check(vk_right);
-pressLeft = keyboard_check(vk_left);
-pressUp = keyboard_check(vk_up);
-pressDown = keyboard_check(vk_down);
+pressRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
+pressLeft = keyboard_check(vk_left) || keyboard_check(ord("Q"));
+pressUp = keyboard_check(vk_up) || keyboard_check(ord("Z"));
+pressDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 var xChange = (pressRight - pressLeft) * walk_speed;
 var yChange = (pressDown - pressUp) * walk_speed;
@@ -82,7 +82,7 @@ if(count>0){
 ds_list_destroy(floorUnder);
 
 // Items au sol
-var itemUnder = instance_position(x,y,Item);
+var itemUnder = instance_place(x,y,Item);
 if(itemUnder != pointer_null && itemUnder >= 0){
 	if(inventory[? itemUnder.item_type] != pointer_null){
 		inventory[? itemUnder.item_type].x = itemUnder.x +80;
@@ -92,7 +92,7 @@ if(itemUnder != pointer_null && itemUnder >= 0){
 }
 
 //Pognon
-var coinUnder = instance_position(x,y,Pixcoin);
+var coinUnder = instance_place(x,y,Pixcoin);
 if(coinUnder != pointer_null && coinUnder >= 0){
 	money ++;
 	instance_destroy(coinUnder);
