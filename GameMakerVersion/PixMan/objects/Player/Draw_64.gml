@@ -37,3 +37,9 @@ for (var k = ds_map_find_first(inventory); !is_undefined(k);  k = ds_map_find_ne
   }
   iterator ++;
 }
+
+//Interaction didactique
+if(collision_circle( x, y, 100, Chest, false, false )){
+	draw_text(500, 700,"appuyez sur entree pour ouvrir le coffre");
+	draw_set_color(c_white);
+}
