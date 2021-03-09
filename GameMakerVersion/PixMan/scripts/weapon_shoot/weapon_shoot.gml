@@ -12,10 +12,11 @@ function weapon_shoot(instance, target_x,target_y){
 		
 	bulletDirection = point_direction(x,y,target_x,target_y);
 	bullet.bulletSpeed = instance.bulletSpeed;
-	bullet.team = instance.team;
+	bullet.team = self.team;
 		
 	bullet.hspeed = dcos(bulletDirection) * bullet.bulletSpeed;
 	bullet.vspeed =  - dsin(bulletDirection) * bullet.bulletSpeed;
+	bullet.owner = self.id;
 	bullet.nb_bounces = 1;
 		
 	instance.cooldown = instance.cooldownMax;

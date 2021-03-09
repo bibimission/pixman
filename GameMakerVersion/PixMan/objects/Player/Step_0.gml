@@ -64,10 +64,10 @@ var bulletsTaken = ds_list_create();
 var count = instance_place_list(x, y, Bullet, bulletsTaken, true);
 if(count>0){
 	for(var index = 0; index < ds_list_size(bulletsTaken); index++) {
-		if(bulletsTaken[| index].team != self.team){
+		if(bulletsTaken[| index].team != self.team && bulletsTaken[| index].owner != self.id){
 			life_points = life_points-1;
+			instance_destroy(bulletsTaken[| index]);
 		}
-		instance_destroy(bulletsTaken[| index]);
 	}
 }
 

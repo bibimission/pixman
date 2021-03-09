@@ -16,7 +16,7 @@ if(cooldown > 0){
 // Tir
 var rotation_speed = 10;
 
-if( collision_circle( x, y, 400, Player, false, false ) && cooldown == 0){
+if( collision_circle( x, y, 400, Player, false, false )){
 	
 	var _targets = ds_list_create();
 	var count = collision_circle_list(x,y,400,Player,false,false,_targets,false);
@@ -26,7 +26,9 @@ if( collision_circle( x, y, 400, Player, false, false ) && cooldown == 0){
 		var pd = point_direction(mainWeapon.x, mainWeapon.y, _selectedTarget.x, _selectedTarget.y);
 		var dd = angle_difference(mainWeapon.image_angle, pd);
 		mainWeapon.image_angle -= min(abs(dd), rotation_speed) * sign(dd);
-		weapon_shoot(self.mainWeapon, _selectedTarget.x, _selectedTarget.y);
-		cooldown = cooldownMax;
+		if(cooldown == 0){
+			weapon_shoot(self.mainWeapon, _selectedTarget.x, _selectedTarget.y);
+			cooldown = cooldownMax;
+		}
 	}
 }

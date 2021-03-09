@@ -5,3 +5,5 @@ blend_color(self);
 
 event_inherited();
 
+follow_entity(instance_nearest(x,y,Player));
+
