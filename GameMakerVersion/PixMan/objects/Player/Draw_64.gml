@@ -1,6 +1,9 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
+
+// Vie (Coeurs)
+/*
 var spaceBetweenHeart = 10;
 
 var heartWidth = sprite_get_width(filledHeart);
@@ -16,6 +19,13 @@ for(var i=0; i<life_points_max ; i++){
 	}
 	cX -= heartWidth + spaceBetweenHeart;
 }
+*/
+// Vie (Barre)
+var lifeHero_with = 297;
+var lifeHero_height = 21;
+
+draw_sprite_stretched(heroBarColor,-1,350,40,(life_points/life_points_max)*lifeHero_with, lifeHero_height);
+draw_sprite(heroBar,-1,350,40);
 
 //Fric
 draw_sprite(pixcoin,-1, 40,30);
