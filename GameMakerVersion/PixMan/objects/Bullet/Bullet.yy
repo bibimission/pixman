@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "bull",
-    "path": "sprites/bull/bull.yy",
+    "name": "bigBullet",
+    "path": "sprites/bigBullet/bigBullet.yy",
   },
   "solid": false,
   "visible": true,

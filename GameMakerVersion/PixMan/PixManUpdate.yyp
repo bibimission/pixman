@@ -42,6 +42,7 @@
     {"id":{"name":"Crate","path":"objects/Crate/Crate.yy",},"order":3,},
     {"id":{"name":"GreenFloor","path":"objects/GreenFloor/GreenFloor.yy",},"order":5,},
     {"id":{"name":"blueWall","path":"sprites/blueWall/blueWall.yy",},"order":1,},
+    {"id":{"name":"bigBullet","path":"sprites/bigBullet/bigBullet.yy",},"order":8,},
     {"id":{"name":"BlueFloor","path":"objects/BlueFloor/BlueFloor.yy",},"order":7,},
     {"id":{"name":"RedWall","path":"objects/RedWall/RedWall.yy",},"order":3,},
     {"id":{"name":"Door","path":"objects/Door/Door.yy",},"order":4,},

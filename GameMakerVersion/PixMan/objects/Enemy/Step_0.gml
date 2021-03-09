@@ -9,6 +9,7 @@ if(count>0){
 			life_points--;
 			if(life_points <= 0){
 				instance_destroy(self);
+				global.PLAYER_SCORE += entity_score;
 			}
 			
 		}

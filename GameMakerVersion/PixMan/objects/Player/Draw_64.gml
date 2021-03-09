@@ -23,6 +23,10 @@ draw_set_color(c_white);
 draw_text(80,25,"x");
 draw_text(100,29,money);
 
+// Score
+draw_text(70,80,"Score");
+draw_text(120,80,global.PLAYER_SCORE);
+
 // Inventaire
 
 var iterator = 0;
