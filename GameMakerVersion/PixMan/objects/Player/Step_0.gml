@@ -85,10 +85,11 @@ ds_list_destroy(floorUnder);
 var itemUnder = instance_place(x,y,Item);
 if(itemUnder != pointer_null && itemUnder >= 0){
 	if(global.PLAYER_INVENTORY[? itemUnder.item_type] != pointer_null){
-		global.PLAYER_INVENTORY[? itemUnder.item_type].x = itemUnder.x +80;
+		var droppedItem = item_deserialize(global.PLAYER_INVENTORY[? itemUnder.item_type], x, y);
+		droppedItem.pickable = false;
 	}
-	ds_map_replace(global.PLAYER_INVENTORY,itemUnder.item_type, itemUnder);
-	itemUnder.x = -9000;
+	ds_map_replace(global.PLAYER_INVENTORY,itemUnder.item_type, item_serialize(itemUnder));
+	instance_destroy(itemUnder);
 }
 
 //Pognon
@@ -104,11 +105,11 @@ walk_speed = base_walk_speed;
 for (var k = ds_map_find_first(global.PLAYER_INVENTORY); !is_undefined(k); k = ds_map_find_next(global.PLAYER_INVENTORY, k)) {
   var item = global.PLAYER_INVENTORY[? k];
   if(item != pointer_null){
-	for(var caracIndex = 0; caracIndex < ds_list_size(item.caracteristics); caracIndex++) {
-		var carac = item.caracteristics[| caracIndex];
-		switch(carac.key){
+	for (var caracKey = ds_map_find_first(item[? "caracteristics"]); !is_undefined(caracKey); caracKey = ds_map_find_next(item[? "caracteristics"], caracKey)) {
+		
+		switch(caracKey){
 			case global.CARAC_WALK_SPEED:
-			walk_speed += carac.value;
+			walk_speed += item[? "caracteristics"][? caracKey];
 		}
 	}
   }

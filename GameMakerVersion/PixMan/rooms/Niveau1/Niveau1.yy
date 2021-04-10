@@ -195,6 +195,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"MegaSpeedBoots","path":"objects/MegaSpeedBoots/MegaSpeedBoots.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":1088.0,"resourceVersion":"1.0","name":"inst_5F4D87FB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Crate","path":"objects/Crate/Crate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2080.0,"y":1504.0,"resourceVersion":"1.0","name":"inst_193DCCA0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Crate","path":"objects/Crate/Crate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":736.0,"resourceVersion":"1.0","name":"inst_457F07AD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"SpeedBoots","path":"objects/SpeedBoots/SpeedBoots.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":384.0,"resourceVersion":"1.0","name":"inst_647335BD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"OnTheGround","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"RedFloor","path":"objects/RedFloor/RedFloor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":256.0,"resourceVersion":"1.0","name":"inst_9D6B562","tags":[],"resourceType":"GMRInstance",},
@@ -373,6 +374,7 @@
     {"name":"inst_3762F094","path":"rooms/Niveau1/Niveau1.yy",},
     {"name":"inst_495ECAF9","path":"rooms/Niveau1/Niveau1.yy",},
     {"name":"inst_53AC30C5","path":"rooms/Niveau1/Niveau1.yy",},
+    {"name":"inst_647335BD","path":"rooms/Niveau1/Niveau1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

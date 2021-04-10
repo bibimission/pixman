@@ -72,7 +72,6 @@
     {"id":{"name":"weapon_shoot","path":"scripts/weapon_shoot/weapon_shoot.yy",},"order":3,},
     {"id":{"name":"Item","path":"objects/Item/Item.yy",},"order":2,},
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},"order":26,},
-    {"id":{"name":"Caracteristic","path":"objects/Caracteristic/Caracteristic.yy",},"order":2,},
     {"id":{"name":"ryukD","path":"sprites/ryukD/ryukD.yy",},"order":1,},
     {"id":{"name":"ryukB","path":"sprites/ryukB/ryukB.yy",},"order":0,},
     {"id":{"name":"emptyHeart","path":"sprites/emptyHeart/emptyHeart.yy",},"order":1,},
