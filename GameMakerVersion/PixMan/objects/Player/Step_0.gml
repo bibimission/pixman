@@ -84,12 +84,15 @@ ds_list_destroy(floorUnder);
 // Items au sol
 var itemUnder = instance_place(x,y,Item);
 if(itemUnder != pointer_null && itemUnder >= 0){
-	if(global.PLAYER_INVENTORY[? itemUnder.item_type] != pointer_null){
-		var droppedItem = item_deserialize(global.PLAYER_INVENTORY[? itemUnder.item_type], x, y);
-		droppedItem.pickable = false;
+	if(itemUnder.pickable){
+		if(global.PLAYER_INVENTORY[? itemUnder.item_type] != pointer_null){
+			var droppedItem = item_deserialize(global.PLAYER_INVENTORY[? itemUnder.item_type], itemUnder.x, itemUnder.y);
+			droppedItem.pickable = false;
+			droppedItem.visible = true;
+		}
+		ds_map_replace(global.PLAYER_INVENTORY,itemUnder.item_type, item_serialize(itemUnder));
+		instance_destroy(itemUnder);
 	}
-	ds_map_replace(global.PLAYER_INVENTORY,itemUnder.item_type, item_serialize(itemUnder));
-	instance_destroy(itemUnder);
 }
 
 //Pognon

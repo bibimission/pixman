@@ -25,10 +25,10 @@ Créee une instance à partir d'une donnée serializée
 function item_deserialize(serializeItem, coordX, coordY){
 	var itemInstance = instance_create_layer(coordX, coordY, "OnTheGround", Item);
 	
-	itemInstance.name = serializeItem.name;
-	itemInstance.item_type = serializeItem.item_type;
-	itemInstance.caracteristics = serializeItem.caracteristics;
-	itemInstance.sprite_index = serializeItem.sprite_index;
+	itemInstance.name = serializeItem[? "name"];
+	itemInstance.item_type = serializeItem[? "item_type"];
+	itemInstance.caracteristics = serializeItem[? "caracteristics"];
+	itemInstance.sprite_index = serializeItem[? "sprite_index"];
 	
 	return itemInstance;
 }
