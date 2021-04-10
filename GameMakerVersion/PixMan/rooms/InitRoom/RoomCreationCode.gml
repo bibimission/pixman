@@ -23,10 +23,18 @@ global.ITEM_TYPE_SHOE = "ITEM_TYPE_SHOE";
 global.ITEM_TYPE_CHEST = "ITEM_TYPE_CHEST";
 global.ITEM_TYPE_HAT = "ITEM_TYPE_HAT";
 
+//------------- Inventory
+
+global.PLAYER_INVENTORY = ds_map_create();
+ds_map_add(global.PLAYER_INVENTORY, global.ITEM_TYPE_SHOE,pointer_null);
+ds_map_add(global.PLAYER_INVENTORY, global.ITEM_TYPE_CHEST,pointer_null);
+ds_map_add(global.PLAYER_INVENTORY, global.ITEM_TYPE_HAT,pointer_null);
+
 //---------------- Caracteristics
 
 global.CARAC_WALK_SPEED = "WALK_SPEED";
 
 global.PLAYER_SCORE = 0;
+global.PLAYER_MONEY = 0;
 
 room_goto(Menu);

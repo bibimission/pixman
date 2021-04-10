@@ -3,6 +3,7 @@
 
 draw_self();
 
+/*
 with(Wall){
 	draw_set_color(c_black);
 	
@@ -25,3 +26,4 @@ with(Wall){
 	}
 	draw_primitive_end();
 }
+*/

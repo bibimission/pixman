@@ -7,3 +7,5 @@ path = path_add();
 lifeEnnemi_with = 148;
 lifeEnnemi_height = 12;
 
+self.mainWeapon = pointer_null;
+

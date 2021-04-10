@@ -8,6 +8,9 @@ if(count>0){
 		if(bulletsTaken[| index].color == self.color && bulletsTaken[| index].owner != self.id){
 			life_points--;
 			if(life_points <= 0){
+				if(self.mainWeapon != pointer_null){
+					instance_destroy(self.mainWeapon);
+				}
 				instance_destroy(self);
 				global.PLAYER_SCORE += entity_score;
 			}

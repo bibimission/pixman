@@ -84,25 +84,25 @@ ds_list_destroy(floorUnder);
 // Items au sol
 var itemUnder = instance_place(x,y,Item);
 if(itemUnder != pointer_null && itemUnder >= 0){
-	if(inventory[? itemUnder.item_type] != pointer_null){
-		inventory[? itemUnder.item_type].x = itemUnder.x +80;
+	if(global.PLAYER_INVENTORY[? itemUnder.item_type] != pointer_null){
+		global.PLAYER_INVENTORY[? itemUnder.item_type].x = itemUnder.x +80;
 	}
-	ds_map_replace(inventory,itemUnder.item_type, itemUnder);
+	ds_map_replace(global.PLAYER_INVENTORY,itemUnder.item_type, itemUnder);
 	itemUnder.x = -9000;
 }
 
 //Pognon
 var coinUnder = instance_place(x,y,Pixcoin);
 if(coinUnder != pointer_null && coinUnder >= 0){
-	money ++;
+	global.PLAYER_MONEY ++;
 	instance_destroy(coinUnder);
 }
 
 // Verification des stats d'items
 walk_speed = base_walk_speed;
 
-for (var k = ds_map_find_first(inventory); !is_undefined(k); k = ds_map_find_next(inventory, k)) {
-  var item = inventory[? k];
+for (var k = ds_map_find_first(global.PLAYER_INVENTORY); !is_undefined(k); k = ds_map_find_next(global.PLAYER_INVENTORY, k)) {
+  var item = global.PLAYER_INVENTORY[? k];
   if(item != pointer_null){
 	for(var caracIndex = 0; caracIndex < ds_list_size(item.caracteristics); caracIndex++) {
 		var carac = item.caracteristics[| caracIndex];

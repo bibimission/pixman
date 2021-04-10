@@ -5,5 +5,7 @@ blend_color(self);
 
 event_inherited();
 
-follow_entity(instance_nearest(x,y,Player));
+if( collision_circle( x, y, 500, Player, false, false )){
+	follow_entity(instance_nearest(x,y,Player));
+}
 

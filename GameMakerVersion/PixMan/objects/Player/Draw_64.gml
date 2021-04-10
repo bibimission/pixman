@@ -31,7 +31,7 @@ draw_sprite(heroBar,-1,350,40);
 draw_sprite(pixcoin,-1, 40,30);
 draw_set_color(c_white);
 draw_text(80,25,"x");
-draw_text(100,29,money);
+draw_text(100,29, global.PLAYER_MONEY);
 
 // Score
 draw_text(70,80,"Score");
@@ -42,8 +42,8 @@ draw_text(120,80,global.PLAYER_SCORE);
 var iterator = 0;
 var marginY = 60;
 var baseMarginY = 150;
-for (var k = ds_map_find_first(inventory); !is_undefined(k);  k = ds_map_find_next(inventory, k)) {
-  var v = inventory[? k];
+for (var k = ds_map_find_first(global.PLAYER_INVENTORY); !is_undefined(k);  k = ds_map_find_next(global.PLAYER_INVENTORY, k)) {
+  var v = global.PLAYER_INVENTORY[? k];
   var slotY = (sprite_height + marginY) * iterator + baseMarginY;
   draw_sprite(InventorySlot, -1, 50, slotY);
   if(v != pointer_null){
