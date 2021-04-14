@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"movable","path":"objects/Obstacle/Obstacle.yy",},"objectId":{"name":"Obstacle","path":"objects/Obstacle/Obstacle.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"weight","path":"objects/Obstacle/Obstacle.yy",},"objectId":{"name":"Obstacle","path":"objects/Obstacle/Obstacle.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"weight","path":"objects/Obstacle/Obstacle.yy",},"objectId":{"name":"Obstacle","path":"objects/Obstacle/Obstacle.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Level",

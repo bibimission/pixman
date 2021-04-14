@@ -10,6 +10,9 @@ global.COLOR_MAGENTA = "COLOR_MAGENTA";
 
 global.COLOR_NONE = "COLOR_NONE";
 
+//------Music
+global.CURRENT_MUSIC = RubberRat;
+
 //-------------- Teams
 global.TEAM_ALLY = "TEAM_ALLY";
 global.TEAM_ENEMY = "TEAM_ENEMY";

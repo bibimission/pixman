@@ -20,8 +20,8 @@ if(!place_meeting(x + xChange, y,Obstacle)){
 	if(obst.movable){
 		xChange = xChange/obst.weight;
 		var _list = ds_list_create();
-		var encounters = collision_rectangle_list(obst.x + xChange, obst.y ,obst.x + obst.sprite_width + xChange, obst.y + obst.sprite_height,Obstacle,false,false,_list,false)
-		if(ds_list_size(encounters) == 1 ){
+		var encounters = collision_rectangle_list(obst.x + xChange, obst.y ,obst.x + obst.sprite_width + xChange, obst.y + obst.sprite_height,Obstacle,false,false,_list,false);
+		if(ds_list_size(encounters) == 1){
 			x += xChange;
 			self.mainWeapon.x += xChange;
 			obst.x += xChange;
@@ -38,7 +38,7 @@ if(!place_meeting(x, y + yChange,Obstacle)){
 		yChange = yChange/obst.weight;
 		var _list = ds_list_create();
 		var encounters = collision_rectangle_list(obst.x , obst.y + yChange,obst.x + obst.sprite_width, obst.y + yChange + obst.sprite_height,Obstacle,false,false,_list,false);
-		show_debug_message(ds_list_size(encounters));
+
 		if(ds_list_size(encounters) == 1){
 			y += yChange;
 			self.mainWeapon.y += yChange;
@@ -77,6 +77,7 @@ var floorUnder = ds_list_create();
 var count = instance_position_list(x, y, Floor, floorUnder, true);
 if(count>0){
 	mainWeapon.color = floorUnder[| 0].color;
+	set_cursor_color(floorUnder[| 0].color);
 }
 
 ds_list_destroy(floorUnder);

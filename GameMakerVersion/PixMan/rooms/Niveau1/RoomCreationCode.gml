@@ -1,3 +1,5 @@
+set_ambient_music(NinjaChips);
+
 var cell_width = 32;
 var cell_height = 32;
 
