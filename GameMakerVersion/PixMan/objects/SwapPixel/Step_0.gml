@@ -27,7 +27,7 @@ if( collision_circle( x, y, 400, Player, false, false )){
 		var dd = angle_difference(mainWeapon.image_angle, pd);
 		mainWeapon.image_angle -= min(abs(dd), rotation_speed) * sign(dd);
 		if(cooldown == 0){
-			weapon_shoot(self.mainWeapon, _selectedTarget.x, _selectedTarget.y);
+			weapon_shoot_target(self.mainWeapon, _selectedTarget.x, _selectedTarget.y);
 			cooldown = cooldownMax;
 		}
 	}

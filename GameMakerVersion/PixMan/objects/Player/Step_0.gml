@@ -55,7 +55,7 @@ mainWeapon.image_angle -= min(abs(dd), rotation_speed) * sign(dd);
 
 if(mouse_check_button(mb_left) && mainWeapon.cooldown == 0){
 	if(mainWeapon.color != global.COLOR_NONE){
-		weapon_shoot(self.mainWeapon,mouse_x,mouse_y);
+		weapon_shoot_target(self.mainWeapon,mouse_x,mouse_y);
 	}
 }
 
