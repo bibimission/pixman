@@ -16,10 +16,10 @@ if(cooldown > 0){
 // Tir
 var rotation_speed = 10;
 
-if( collision_circle( x, y, 400, Player, false, false )){
+if( collision_circle( x, y, detection_radius, Player, false, false )){
 	
 	var _targets = ds_list_create();
-	var count = collision_circle_list(x,y,400,Player,false,false,_targets,false);
+	var count = collision_circle_list(x,y,detection_radius,Player,false,false,_targets,false);
 	
 	if(count>0){
 		var _selectedTarget = _targets[| 0];

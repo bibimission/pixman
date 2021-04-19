@@ -30,11 +30,20 @@
   "properties": [
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"active_laser_count","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"0.4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"rotation_speed","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"boss_phase","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"250","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"colorTimerMax","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"250","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"colorTimer","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"colorIndex","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"killable","path":"objects/Enemy/Enemy.yy",},"objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"base_walk_speed","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"life_points_max","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"life_points","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objets/Entity/enemies.yy",
+    "name": "LaserBoss",
+    "path": "folders/Objets/Entity/enemies/LaserBoss.yy",
   },
   "resourceVersion": "1.0",
   "name": "LaserBoss",

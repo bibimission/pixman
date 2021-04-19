@@ -27,6 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"value":"COLOR_BLUE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"color","path":"objects/Obstacle/Obstacle.yy",},"objectId":{"name":"Obstacle","path":"objects/Obstacle/Obstacle.yy",},"value":"COLOR_BLUE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Wall",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite23",
-    "path": "sprites/Sprite23/Sprite23.yy",
+    "name": "Sprite44",
+    "path": "sprites/Sprite44/Sprite44.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,21 +24,22 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"DeadPixel","path":"objects/DeadPixel/DeadPixel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"BossBubble","path":"objects/BossBubble/BossBubble.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"radius","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"phase","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [
     {"propertyId":{"name":"life_points_max","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"life_points","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entity_score","path":"objects/Enemy/Enemy.yy",},"objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"base_walk_speed","path":"objects/Entity/Entity.yy",},"objectId":{"name":"Entity","path":"objects/Entity/Entity.yy",},"value":"3.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objets/Entity/enemies.yy",
+    "name": "LaserBoss",
+    "path": "folders/Objets/Entity/enemies/LaserBoss.yy",
   },
   "resourceVersion": "1.0",
-  "name": "DeadPixel",
+  "name": "BossBubble",
   "tags": [],
   "resourceType": "GMObject",
 }
