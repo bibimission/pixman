@@ -30,7 +30,7 @@ if(killable){
 					}
 					
 					global.PLAYER_SCORE += entity_score;
-					isDead = true;
+					self.isDead = true;
 					self.visible = false;
 				}
 				instance_destroy(bulletsTaken[| index]);

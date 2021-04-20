@@ -5,6 +5,25 @@ if(active_laser_count > 4){
 	boss_phase = 1;
 }
 
+var bubbleDeathCount = 0;
+	
+for(var i = 0; i< ds_list_size(self.bubbles); i++){
+	self.bubbles[| i].base_walk_speed = 3;
+	self.bubbles[| i].killable = true;
+	if(self.bubbles[| i].isDead){
+		bubbleDeathCount++;
+	}
+}
+	
+if(bubbleDeathCount >= ds_list_size(self.bubbles)){
+	boss_phase = 2;
+}
+
+if(life_points <= 0){
+	isDead = true;
+	boss_phase = 3;
+}
+
 // Laser rotatifs
 if(boss_phase ==0){
 
@@ -20,23 +39,11 @@ if(boss_phase ==0){
 // Boules de couleurs avec Spawn d'ennemis
 else if(boss_phase == 1){
 	
-	self.base_walk_speed = 1;
+	//self.base_walk_speed = 1;
 	
 	//follow_entity(instance_nearest(x,y,Player));
 	
-	var bubbleDeathCount = 0;
 	
-	for(var i = 0; i< ds_list_size(self.bubbles); i++){
-		self.bubbles[| i].base_walk_speed = 3;
-		self.bubbles[| i].killable = true;
-		if(self.bubbles[| i].isDead){
-			bubbleDeathCount++;
-		}
-	}
-
-	if(bubbleDeathCount >= ds_list_size(self.bubbles)){
-		boss_phase = 2;
-	}
 }
 
 // Mode Berserk
@@ -70,7 +77,6 @@ else if(boss_phase == 2){
 				if(life_points <= 0){
 					
 					isDead = true;
-					boss_phase = 3;
 					
 					global.PLAYER_SCORE += entity_score;
 				}
