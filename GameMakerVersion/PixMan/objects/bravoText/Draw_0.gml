@@ -10,4 +10,8 @@ draw_text(x, y, "Felicitations !");
 
 draw_text(x, y + 100, "Vous avez triomphe de vos terribles ennemis !");
 
-draw_text(x, y + 200, "Merci d'avoir joue à Pix'man !");
+draw_text(x, y + 200, "Merci d'avoir joue a Pix'man !");
+
+var scoreText = "Score final : " + global.PLAYER_SCORE;
+
+draw_text(x, y +300, scoreText);

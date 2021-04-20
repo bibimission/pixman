@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "blueGround",
-    "path": "sprites/blueGround/blueGround.yy",
+    "name": "Sprite46",
+    "path": "sprites/Sprite46/Sprite46.yy",
   },
   "solid": false,
   "visible": true,
