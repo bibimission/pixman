@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"adb5d983-1b8c-4ac1-813f-e3bc07916f0c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "PixManUpdate",
-    "path": "PixManUpdate.yyp",
+    "name": "clothes",
+    "path": "folders/Sprites/items/clothes.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite33",

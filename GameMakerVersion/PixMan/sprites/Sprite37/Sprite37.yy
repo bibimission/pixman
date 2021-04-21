@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c5bb9596-0ee6-4e86-8775-f6102cf7a93e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "PixManUpdate",
-    "path": "PixManUpdate.yyp",
+    "name": "ground",
+    "path": "folders/Sprites/level/ground.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite37",
