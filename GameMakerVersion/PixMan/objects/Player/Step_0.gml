@@ -67,11 +67,14 @@ if(count>0){
 		if(bulletsTaken[| index].team != self.team && bulletsTaken[| index].owner != self.id){
 			life_points = life_points-1;
 			instance_destroy(bulletsTaken[| index]);
+			
+			/*	GAME OVER
 			if(life_points == 0){
                 var game = instance_find(Game,0);
                 game.level_start = true;
                 room_restart();
             }
+			*/
 		}
 	}
 }
