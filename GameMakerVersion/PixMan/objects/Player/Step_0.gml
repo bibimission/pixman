@@ -21,7 +21,7 @@ if(!place_meeting(x + xChange, y,Obstacle)){
 		xChange = xChange/obst.weight;
 		var _list = ds_list_create();
 		var encounters = collision_rectangle_list(obst.x + xChange, obst.y ,obst.x + obst.sprite_width + xChange, obst.y + obst.sprite_height,Obstacle,false,false,_list,false);
-		if(ds_list_size(encounters) == 1){
+		if(ds_list_size(_list) == 1){
 			x += xChange;
 			self.mainWeapon.x += xChange;
 			obst.x += xChange;
@@ -39,7 +39,7 @@ if(!place_meeting(x, y + yChange,Obstacle)){
 		var _list = ds_list_create();
 		var encounters = collision_rectangle_list(obst.x , obst.y + yChange,obst.x + obst.sprite_width, obst.y + yChange + obst.sprite_height,Obstacle,false,false,_list,false);
 
-		if(ds_list_size(encounters) == 1){
+		if(ds_list_size(_list) == 1){
 			y += yChange;
 			self.mainWeapon.y += yChange;
 			obst.y += yChange;
@@ -67,6 +67,11 @@ if(count>0){
 		if(bulletsTaken[| index].team != self.team && bulletsTaken[| index].owner != self.id){
 			life_points = life_points-1;
 			instance_destroy(bulletsTaken[| index]);
+			if(life_points == 0){
+                var game = instance_find(Game,0);
+                game.level_start = true;
+                room_restart();
+            }
 		}
 	}
 }

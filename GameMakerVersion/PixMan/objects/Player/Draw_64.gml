@@ -47,7 +47,7 @@ for (var k = ds_map_find_first(global.PLAYER_INVENTORY); !is_undefined(k);  k = 
   var slotY = (sprite_height + marginY) * iterator + baseMarginY;
   draw_sprite(InventorySlot, -1, 50, slotY);
   if(v != pointer_null){
-		draw_sprite(v[? "sprite_index"],-1, 50, slotY);
+		draw_sprite(v[? "sprite_index"],-1, 50 + sprite_width / 2, slotY + sprite_height / 2);
   }
   iterator ++;
 }
